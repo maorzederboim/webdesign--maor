@@ -1,0 +1,13 @@
+body{
+    font-family: arial; 
+    color: aquamarine;
+    line-height: normal;
+    h2{
+        color: coral;
+        font-family: serif;
+    }
+    
+    h1{
+        color: darkcyan
+    } 
+}
