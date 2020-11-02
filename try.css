@@ -1,6 +1,6 @@
 body{
     font-family: arial; 
-    color: aquamarine;
+    color: crimson;
     line-height: normal;
  
 }
@@ -11,5 +11,6 @@ body{
     
     h1{
         color: darkcyan;
+        font-family: serif
         
     } 
