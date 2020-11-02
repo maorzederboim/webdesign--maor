@@ -12,5 +12,9 @@ body{
     h1{
         color: darkcyan;
         font-family: serif
-        
     } 
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
