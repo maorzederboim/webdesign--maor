@@ -2,17 +2,28 @@ body{
     font-family: arial; 
     color: crimson;
     line-height: normal;
- 
 }
+  h1{
+        color: darkcyan;
+        font-family: serif
+    } 
    h2{
         color: coral;
         font-family: serif;
     }
-    
-    h1{
-        color: darkcyan;
-        font-family: serif
-    } 
+  h3 {
+        font-family: arial;
+    font-family: serif;
+        font-weight: 500;
+    }
+ol{
+    font-weight: 400;
+    color: darkgreen;
+    list-style-type: lower-greek;
+} 
+ul{
+    color: darkgoldenrod;
+}
 img {
   max-width: 100%;
   width: auto;
