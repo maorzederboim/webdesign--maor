@@ -1,31 +1,46 @@
 body{
-    font-family: arial; 
-    color: crimson;
+    font-family: 'Assistant', sans-serif;
+    color: brown;
     line-height: normal;
+    font-size: 22px;
 }
   h1{
-        color: darkcyan;
-        font-family: serif
+        color: red;
+       font-family: 'Tinos', serif;
+        font-size: 70px;
     } 
    h2{
-        color: coral;
-        font-family: serif;
+        color: orange;
+       font-family: 'Tinos', serif;
+       font-size: 50px;
     }
   h3 {
-        font-family: arial;
-    font-family: serif;
+      color: green; 
+      font-family: arial;
+   font-family: 'Tinos', serif;
         font-weight: 500;
+      font-size: 45px;
     }
 ol{
     font-weight: 400;
-    color: darkgreen;
-    list-style-type: lower-greek;
+    color: brown;
+    list-style-type: decimal;
 } 
 ul{
-    color: darkgoldenrod;
+    color: brown;
+    list style list-style-type: circle;
 }
 img {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: green;
+    font-weight: 700;
+    
 }
