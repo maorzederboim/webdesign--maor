@@ -1,40 +1,47 @@
-body{
+body {
     font-family: 'Assistant', sans-serif;
     color: brown;
     line-height: normal;
     font-size: 22px;
 }
-  h1{
-        color: red;
-       font-family: 'Tinos', serif;
-        font-size: 70px;
-    } 
-   h2{
-        color: orange;
-       font-family: 'Tinos', serif;
-       font-size: 50px;
-    }
-  h3 {
-      color: green; 
-      font-family: arial;
-   font-family: 'Tinos', serif;
-        font-weight: 500;
-      font-size: 45px;
-    }
-ol{
+
+h1 {
+    color: red;
+    font-family: 'Tinos', serif;
+    font-size: 70px;
+}
+
+h2 {
+    color: orange;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+}
+
+h3 {
+    color: green;
+    font-family: arial;
+    font-family: 'Tinos', serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+ol {
     font-weight: 400;
     color: brown;
     list-style-type: decimal;
-} 
-ul{
+}
+
+ul {
     color: brown;
-    list style list-style-type: circle;
+    list-style-type: circle;
 }
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
+
 h2 {
     font-size: 40px;
 }
@@ -42,12 +49,18 @@ h2 {
 p {
     color: green;
     font-weight: 700;
-    
+
 }
 
 h4 {
-       font-family: 'Tinos', serif;
-        font-weight: 500;
-      font-size: 35px;
-    
+    font-family: 'Tinos', serif;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+
 }
