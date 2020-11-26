@@ -27,12 +27,12 @@ h3 {
 
 ol {
     font-weight: 400;
-    color: brown;
+    color: black;
     list-style-type: decimal;
 }
 
 ul {
-    color: brown;
+    color: black;
     list-style-type: circle;
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 
 p {
-    color: green;
+    color: red;
     font-weight: 700;
 
 }
@@ -63,4 +63,38 @@ h4 {
     max-width: 800px;
     margin: auto;
 
+}
+
+.cta {
+    background:beige;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.cta h3{
+    color: green;
+    margin-bottom: 0px;
+}
+.cta p{
+    color: green;
+  
+
+}
+.button {
+      background: #08c;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  display: inline-block;
+
+}
+   
+
+.button2 {
+    background-color: #08c;
+    color: #fff;
+     padding: 14px;
+   display: inline-block;
+    text-align: center;
 }
