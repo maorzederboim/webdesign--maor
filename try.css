@@ -1,6 +1,5 @@
 body {
     font-family: 'Assistant', sans-serif;
-    color: brown;
     line-height: normal;
     font-size: 22px;
 }
@@ -12,7 +11,7 @@ h1 {
 }
 
 h2 {
-    color: orange;
+    color: #bc8715;
     font-family: 'Tinos', serif;
     font-size: 50px;
 }
@@ -41,6 +40,14 @@ img {
     width: auto;
     height: auto;
 }
+.alignleft{
+    max-width: 40%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 14px;
+    margin-top:120px;
+}
+
 
 h2 {
     font-size: 40px;
@@ -66,34 +73,42 @@ h4 {
 }
 
 .cta {
-    background:beige;
+    background:#e6dbad;
     font-size: 21px;
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
+
 }
 .cta h3{
-    color: green;
+    color: #982e5a;
     margin-bottom: 0px;
     margin-top: auto;
     font-size: 45px;
-    text-align: center;
-}
-.cta p{
-    color: green;
-  margin-bottom: 30px;
-    font-size:25px;
-    text-align: center;
 
 }
+.cta p{
+    color: #982e5a;
+  margin-bottom: 30px;
+    font-size:25px;
+
+
+}
+.cta .alignleft{
+    max-width:30%;
+    margin-top:40px;
+    margin-right: 0px;
+}
+
 .button {
-      background: #08c;
+      background: #bc8715;
   color: #fff;
     text-align: right;
   text-decoration: none;
   padding: 14px;
   display: inline-block;
-    margin-right: 185px;
-
+    margin-right: 14px;
+    
 
 }
    
@@ -101,9 +116,11 @@ h4 {
 .button2 { 
     text-decoration: none;
     display: inline-block;
-color: darkblue
+color: #982e5a;
 }
-.alignleft{
-    float: left;
-    max-width: 220px;
+
+
+
+.button-black {
+    background: #cb9f41;
 }
