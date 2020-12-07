@@ -83,20 +83,20 @@ h4 {
 .cta h3{
     color: #982e5a;
     margin-bottom: 0px;
-    margin-top: auto;
-    font-size: 45px;
+    margin-top:60px;
+    font-size: 35px;
 
 }
 .cta p{
-    color: #982e5a;
+    color: black;
   margin-bottom: 30px;
-    font-size:25px;
+    font-size:20px;
 
 
 }
 .cta .alignleft{
     max-width:30%;
-    margin-top:40px;
+    margin-top:-20px;
     margin-right: 0px;
 }
 
@@ -123,4 +123,35 @@ color: #982e5a;
 
 .button-black {
     background: #cb9f41;
+}
+
+.news {
+  padding: 120px;
+  background: url(img/kitchen1.jpg);
+  background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.news h2{
+  font-size: 50px;
+}
+.news p{
+    font-size: 30px;
+}
+button, input, textarea{
+    font: inherit;
+    color: #a01510;
+}
+.news input{
+      background: transparent;
+    border: 2px solid #cb9f41;
+}
+.news .button{
+    padding: 5px 30px;
+    background: #a01510;
+    display: block;
+    margin: 20px auto;
+}
+.news input[type="email"]{
+    width: 350px;
 }
