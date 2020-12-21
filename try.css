@@ -127,31 +127,47 @@ color: #982e5a;
 
 .news {
   padding: 120px;
-  background: url(img/kitchen1.jpg);
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+url(img/kitchen1.jpg);
   background-position: center;
     background-size: cover;
     text-align: center;
 }
 .news h2{
   font-size: 50px;
+    color: #f3bd48;
 }
 .news p{
     font-size: 30px;
+    color:#fff;
 }
-button, input, textarea{
+ input{
     font: inherit;
-    color: #a01510;
+    color: #fff;
+background: none;
+     border: 0;
+    border-bottom:3px solid;
+     padding: 5px;
 }
 .news input{
       background: transparent;
-    border: 2px solid #cb9f41;
+
 }
 .news .button{
     padding: 5px 30px;
-    background: #a01510;
+    background: none;
     display: block;
     margin: 20px auto;
+     border: 2px solid #fff;
 }
 .news input[type="email"]{
-    width: 350px;
+  
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+label span {
+  display: inline-block;
+  width: 100px;
 }
