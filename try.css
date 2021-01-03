@@ -153,6 +153,11 @@ background: none;
       background: transparent;
 
 }
+input:focus{
+    outline: 0;
+   background: rgba(0,0,0,0.5);
+    
+}
 .news .button{
     padding: 5px 30px;
     background: none;
@@ -160,6 +165,12 @@ background: none;
     margin: 20px auto;
      border: 2px solid #fff;
 }
+
+.news .button:hover {
+  background: #fff;
+  color: #000;
+}
+
 .news input[type="email"]{
   
 }
@@ -168,6 +179,7 @@ label{
     margin-bottom: 20px;
 }
 label span {
-  display: inline-block;
-  width: 100px;
+  display: block;
+    color: #f3bd48;
+    margin-top: 20px;
 }

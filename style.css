@@ -1,0 +1,39 @@
+body{
+    font-family: 'Assistant', sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: 'Secular One', sans-serif;
+}
+h1{
+    color: #b60b15;
+    font-size: 40px;
+}
+h2{
+    color: #b60b15; 
+}
+p{
+    color: #fff;
+}
+.about{
+    background-color: #699c9c;
+  
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+img {
+  max-width: 900%;
+  width: auto;
+  height: auto;
+}
+
+.about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+}
+.button{
+    color:#f7a639;
+}
