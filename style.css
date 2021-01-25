@@ -34,7 +34,6 @@ p{
 }
 .about{
     background-color: #176d8d;
-    max-width: 1100px;
     margin: auto
   
 }
@@ -62,7 +61,7 @@ img {
     border: 3px solid #fff;
     padding: 10px 15px;
     display: inline-block;
-    transition: .3s;
+    transition: 0.3s;
     border-radius: 20px;
 
 }
@@ -99,4 +98,31 @@ img {
     font-size: 30px;
     color: #f7941d;
     margin-bottom: 20px;
+}
+.contact{
+    background:#176d8d;
+  text-align: center;
+    margin-top: 60px;
+    padding: 20px 0px;
+}
+.contact a:hover {
+  opacity: 0.7;
+}
+a {
+  color:#f7941d;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact li {
+  margin-bottom: 7px;
+}
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer a {
+  margin: 0 10px;
 }
